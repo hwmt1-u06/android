@@ -395,7 +395,8 @@
   <!--TeamBliss repos-->
 
   <project path="external/skia" name="TeamBliss/android_external_skia" revision="kk4.4" /> 
-  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" revision="cm-11.0" />  
+  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" revision="cm-11.0" />
+  <project path="external/libtruezip" name="TeamBliss/android_external_libtruezip" revision="kk4.4" />   
   <project path="system/core" name="TeamBliss/platform_system_core" revision="kk4.4" />
   <project path="system/media" name="TeamBliss/system_media" revision="kk4.4" />  
   <project path="art" name="TeamBliss/android_art" revision="kk4.4" />
@@ -421,7 +422,7 @@
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="sr" revision="kk4.4" />
   <project path="packages/apps/Dialer" name="TeamBliss/android_packages_apps_Dialer" revision="kk4.4" />
   <project path="packages/apps/Email" name="TeamBliss/android_packages_apps_Email" revision="kk4.4" />
-  <project path="packages/apps/Gallery2" name="TeamBliss/android_packages_apps_Gallery2" revision="kk4.4" />
+  <project path="packages/apps/Gallery2" name="TeamBliss/android_packages_apps_Gallery2" revision="cm-11.0" />
   <project path="packages/apps/InCallUI" name="TeamBliss/android_packages_apps_InCallUI" revision="kk4.4" />
   <project path="packages/apps/KernelTweaker" name="TeamBliss/android_packages_apps_KernelTweaker" revision="kk4.4" />  
   <project path="packages/apps/Mms" name="TeamBliss/android_packages_apps_Mms" revision="kk4.4" />
