@@ -422,7 +422,7 @@
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="sr" revision="kk4.4" />
   <project path="packages/apps/Dialer" name="TeamBliss/android_packages_apps_Dialer" revision="kk4.4" />
   <project path="packages/apps/Email" name="TeamBliss/android_packages_apps_Email" revision="kk4.4" />
-  <project path="packages/apps/Gallery2" name="TeamBliss/android_packages_apps_Gallery2" revision="cm-11.0" />
+  <project path="packages/apps/Gallery2" name="TeamBliss/android_packages_apps_Gallery2" revision="kk4.4" />
   <project path="packages/apps/InCallUI" name="TeamBliss/android_packages_apps_InCallUI" revision="kk4.4" />
   <project path="packages/apps/KernelTweaker" name="TeamBliss/android_packages_apps_KernelTweaker" revision="kk4.4" />  
   <project path="packages/apps/Mms" name="TeamBliss/android_packages_apps_Mms" revision="kk4.4" />
