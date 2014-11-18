@@ -27,7 +27,7 @@
   <remote name="TeamBliss"
           fetch="https://github.com/TeamBliss/" />
           
-  <remote name="tbd"
+  <remote name="TeamBliss-Devices"
           fetch="https://github.com/TeamBliss-Devices/" />          
 
   <remote name="ls"
