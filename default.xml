@@ -45,8 +45,8 @@
   <remote name="du"
           fetch="https://github.com/DirtyUnicorns-KitKat/" />                      
           
-   <remote  name="teameos"
-           fetch="https://github.com/teameos/" />         
+  <remote name="teameos"
+          fetch="https://github.com/teameos/" />         
 
   <default revision="refs/heads/cm-11.0"
            remote="github"
