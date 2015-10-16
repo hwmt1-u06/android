@@ -22,8 +22,10 @@
   </project>
 
   <project path="android" name="hwmt1-u06/android" remote="private" />
-  <project path="device/huawei/hwmt1_u06" name="hwmt1-06/android_device_huawei_hwmt1-u06" remote="private" />
+  <project path="device/huawei/hwmt1_u06" name="hwmt1-u06/android_device_huawei_hwmt1-u06" remote="private" />
   <project path="vendor/huawei" name="hwmt1-u06/proprietary_vendor_huawei" remote="private" />
+
+  <project path="external/skia" name="hwmt1-u06/android_external_skia" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" />
@@ -258,7 +260,7 @@
   <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="external/skia" name="CyanogenMod/android_external_skia" />
+  <!--<project path="external/skia" name="CyanogenMod/android_external_skia" />-->
   <project path="external/smack" name="platform/external/smack" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/smali" name="CyanogenMod/android_external_smali" />
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" groups="pdk" />
