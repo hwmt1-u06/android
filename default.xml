@@ -17,7 +17,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="CyanogenMod/android_build" groups="pdk" >
+  <project path="build" name="hwmt1-u06/android_build" remote="private" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -497,7 +497,7 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" >
+  <project path="vendor/cm" name="hwmt1-u06/android_vendor_cm" remote="private" >
     <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
   </project>
   <project path="vendor/huawei" name="hwmt1-u06/proprietary_vendor_huawei" remote="private" />
