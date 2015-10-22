@@ -26,7 +26,7 @@
         <copyfile src="core/root.mk" dest="Makefile" />
     </project>
     <project path="android" name="hwmt1-u06/android" remote="private" />
-    <project path="bootable/recovery" name="hwmt1-u06/android_bootable_recovery" remote="private" revision="android-4.4" />
+    <project path="bootable/recovery" name="hwmt1-u06/android_bootable_recovery" remote="private" />
     <project path="device/huawei/hwmt1_u06" name="hwmt1-u06/android_device_huawei_hwmt1-u06" remote="private" />
     <project path="external/skia" name="hwmt1-u06/android_external_skia" remote="private" />
     <project path="frameworks/av" name="hwmt1-u06/android_frameworks_av" remote="private" />
