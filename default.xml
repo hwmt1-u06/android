@@ -35,6 +35,7 @@
     <project path="kernel/huawei/hwmt1_u06" name="hwmt1-u06/android_kernel_huawei_hwmt1-u06" remote="private" />
     <project path="packages/apps/Settings" name="hwmt1-u06/android_packages_apps_Settings" remote="private" />
     <project path="packages/services/Telephony" name="hwmt1-u06/android_packages_services_Telephony" remote="private" />
+    <project path="prebuilt" name="hwmt1-u06/android_prebuilt" remote="private" />
     <project path="system/core" name="hwmt1-u06/android_system_core" remote="private" />
     <project path="vendor/cm" name="hwmt1-u06/android_vendor_cm" remote="private">
         <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
@@ -443,7 +444,6 @@
     <project path="packages/wallpapers/PhaseBeam" name="CyanogenMod/android_packages_wallpapers_PhaseBeam" />
     <project path="packages/wallpapers/PhotoPhase" name="CyanogenMod/android_packages_wallpapers_PhotoPhase" />
     <project path="pdk" name="platform/pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" groups="pdk" />
-    <project path="prebuilt" name="CyanogenMod/android_prebuilt" />
     <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
     <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
     <project path="prebuilts/clang/darwin-x86/arm/3.3" name="platform/prebuilts/clang/darwin-x86/arm/3.3" groups="darwin,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
