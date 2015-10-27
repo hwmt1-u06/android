@@ -23,7 +23,7 @@
   </project>
   <project path="android" name="hwmt1-u06/android" remote="private" revision="bliss-4.4" />
   <project path="bootable/recovery" name="hwmt1-u06/android_bootable_recovery" remote="private" revision="cm-11.0" />
-  <project path="device/huawei/hwmt1_u06" name="hwmt1-u06/android_device_huawei_hwmt1-u06" remote="private" revision="cm-11.0" />
+  <project path="device/huawei/hwmt1_u06" name="hwmt1-u06/android_device_huawei_hwmt1-u06" remote="private" revision="bliss-4.4" />
   <project path="external/skia" name="hwmt1-u06/android_external_skia" remote="private" revision="bliss-4.4" />
   <project path="frameworks/av" name="hwmt1-u06/android_frameworks_av" remote="private" revision="bliss-4.4" />
   <project path="frameworks/base" name="hwmt1-u06/android_frameworks_base" remote="private" revision="bliss-4.4" />
