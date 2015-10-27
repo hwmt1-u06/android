@@ -32,7 +32,7 @@
   <project path="packages/apps/Settings" name="hwmt1-u06/android_packages_apps_Settings" remote="private" revision="bliss-4.4" />
   <project path="packages/services/Telephony" name="hwmt1-u06/android_packages_services_Telephony" remote="private" revision="bliss-4.4" />
   <project path="prebuilt" name="hwmt1-u06/android_prebuilt" remote="private" revision="cm-11.0" /> 
-  <project path="system/core" name="hwmt1-u06/platform_system_core" remote="private" revision="bliss-4.4" />
+  <project path="system/core" name="hwmt1-u06/android_system_core" remote="private" revision="bliss-4.4" />
   <project path="vendor/bliss" name="hwmt1-u06/proprietary_vendor_bliss" remote="private" revision="bliss-4.4" />
   <project path="vendor/huawei" name="hwmt1-u06/proprietary_vendor_huawei" remote="private" revision="cm-11.0" />
 
