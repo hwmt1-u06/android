@@ -27,7 +27,7 @@
   <project path="external/skia" name="hwmt1-u06/android_external_skia" remote="private" revision="bliss-4.4" />
   <project path="frameworks/av" name="hwmt1-u06/android_frameworks_av" remote="private" revision="bliss-4.4" />
   <project path="frameworks/base" name="hwmt1-u06/android_frameworks_base" remote="private" revision="bliss-4.4" />
-  <project path="frameworks/native" name="hwmt1-u06/frameworks_native" remote="private" revision="bliss-4.4" />
+  <project path="frameworks/native" name="hwmt1-u06/android_frameworks_native" remote="private" revision="bliss-4.4" />
   <project path="kernel/huawei/hwmt1_u06" name="hwmt1-u06/android_kernel_huawei_hwmt1-u06" remote="private" revision="cm-11.0" />
   <project path="packages/apps/Settings" name="hwmt1-u06/android_packages_apps_Settings" remote="private" revision="bliss-4.4" />
   <project path="packages/services/Telephony" name="hwmt1-u06/android_packages_services_Telephony" remote="private" revision="bliss-4.4" />
