@@ -33,6 +33,10 @@
            sync-c="true"
            sync-j="4" />
 
+  <remote  name="private"
+           fetch="https://github.com/"
+           sync-j="4" />
+
   <default revision="refs/heads/kk"
            remote="cr"
            sync-c="true"
@@ -42,6 +46,11 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="CarbonDev/android" />
+
+  <project path="device/huawei/hwmt1_u06" name="hwmt1-u06/android_device_huawei_hwmt1-u06" remote="private" revision="cm-11.0" />
+  <project path="kernel/huawei/hwmt1_u06" name="hwmt1-u06/android_kernel_huawei_hwmt1-u06" remote="private" revision="cm-11.0" />
+  <project path="vendor/huawei" name="hwmt1-u06/android_vendor_huawei" remote="private" revision="cm-11.0" />
+
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="art" name="CarbonDev/android_art" />
   <project path="bionic" name="CarbonDev/android_bionic" groups="pdk" />
