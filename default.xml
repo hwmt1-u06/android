@@ -42,10 +42,10 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="hwmt1-u06/android_build" remote="private" revision="cm-11.0" >
+  <project path="build" name="hwmt1-u06/android_build" remote="private" revision="carbon-4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="hwmt1-u06/android" remote="private" revision="cm-11.0" />
+  <project path="android" name="hwmt1-u06/android" remote="private" revision="carbon-4.4" />
 
   <project path="device/huawei/hwmt1_u06" name="hwmt1-u06/android_device_huawei_hwmt1-u06" remote="private" revision="cm-11.0" />
   <project path="kernel/huawei/hwmt1_u06" name="hwmt1-u06/android_kernel_huawei_hwmt1-u06" remote="private" revision="cm-11.0" />
