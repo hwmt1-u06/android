@@ -46,9 +46,15 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="hwmt1-u06/android" remote="private" revision="carbon-4.4" />
-
   <project path="device/huawei/hwmt1_u06" name="hwmt1-u06/android_device_huawei_hwmt1-u06" remote="private" revision="cm-11.0" />
+  <project path="external/skia" name="hwmt1-u06/android_external_skia" remote="private" revision="carbon-4.4" />
+  <project path="frameworks/av" name="hwmt1-u06/android_frameworks_av" remote="private" revision="carbon-4.4" />
+  <project path="frameworks/base" name="hwmt1-u06/android_frameworks_base" remote="private" revision="carbon-4.4" />
+  <project path="frameworks/native" name="hwmt1-u06/android_frameworks_native" remote="private" revision="carbon-4.4" />
   <project path="kernel/huawei/hwmt1_u06" name="hwmt1-u06/android_kernel_huawei_hwmt1-u06" remote="private" revision="cm-11.0" />
+  <project path="packages/apps/Settings" name="hwmt1-u06/android_packages_apps_Settings" remote="private" revision="carbon-4.4" />
+  <project path="packages/services/Telephony" name="hwmt1-u06/android_packages_services_Telephony" remote="private" revision="carbon-4.4" />
+  <project path="system/core" name="hwmt1-u06/android_system_core" remote="private" revision="carbon-4.4" />
   <project path="vendor/huawei" name="hwmt1-u06/proprietary_vendor_huawei" remote="private" revision="cm-11.0" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
@@ -278,7 +284,6 @@
   <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="external/skia" name="CarbonDev/android_external_skia" />
   <project path="external/smack" name="platform/external/smack" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/smali" name="platform/external/smali" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
@@ -315,15 +320,12 @@
   <project path="external/zip" name="CyanogenMod/android_external_zip" remote="cm" revision="cm-11.0" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="frameworks/av" name="CarbonDev/android_frameworks_av" />
-  <project path="frameworks/base" name="CarbonDev/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="frameworks/ex" name="platform/frameworks/ex" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="frameworks/mff" name="platform/frameworks/mff" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="frameworks/ml" name="platform/frameworks/ml" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="frameworks/native" name="CarbonDev/android_frameworks_native" groups="pdk" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" remote="gh" revision="kk4.4" />
@@ -416,7 +418,6 @@
   <project path="packages/apps/ROMStats" name="CarbonDev/android_packages_apps_ROMStats" />
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/ScreenRecorder" name="ChameleonOS/android_packages_apps_ScreenRecorder" remote="gh" revision="kitkat" />
-  <project path="packages/apps/Settings" name="CarbonDev/android_packages_apps_Settings" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
@@ -442,7 +443,6 @@
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="packages/services/Telephony" name="CarbonDev/android_packages_services_Telephony" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="packages/wallpapers/BlueBalls" name="CarbonDev/android_packages_wallpapers_BlueBalls" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
@@ -504,7 +504,6 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="sdk" name="platform/sdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="system/core" name="CarbonDev/android_system_core" groups="pdk" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="system/media" name="CarbonDev/android_system_media" groups="pdk" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-11.0" groups="pdk" />
