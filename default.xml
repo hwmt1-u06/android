@@ -35,7 +35,6 @@
     <project path="kernel/huawei/hwmt1_u06" name="hwmt1-u06/android_kernel_huawei_hwmt1-u06" remote="private" />
     <project path="packages/apps/Settings" name="hwmt1-u06/android_packages_apps_Settings" remote="private" />
     <project path="packages/services/Telephony" name="hwmt1-u06/android_packages_services_Telephony" remote="private" />
-    <project path="prebuilt" name="hwmt1-u06/android_prebuilt" remote="private" />
     <project path="system/core" name="hwmt1-u06/android_system_core" remote="private" />
     <project path="vendor/cm" name="hwmt1-u06/android_vendor_cm" remote="private">
         <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
