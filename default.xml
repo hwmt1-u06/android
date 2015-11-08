@@ -57,6 +57,7 @@
   <project path="packages/services/Telephony" name="hwmt1-u06/android_packages_services_Telephony" remote="private" revision="carbon-4.4" />
   <project path="prebuilts/gcc/linux-x86/arm/linaro-4.6" name="hwmt1-u06/android_prebuilts_gcc_linux-x86_arm_linaro-4.6" remote="private" revision="cm-11.0" />
   <project path="system/core" name="hwmt1-u06/android_system_core" remote="private" revision="carbon-4.4" />
+  <project path="vendor/google/gapps" name="hwmt1-u06/vendor_google_gapps" remote="private" revision="cm-11.0" />
   <project path="vendor/huawei" name="hwmt1-u06/proprietary_vendor_huawei" remote="private" revision="cm-11.0" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
